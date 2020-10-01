@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+     }
+     
+     img {
+    max-width: 100%;
+    height: auto;
+     }
+     
+     body, html {
+    min-height: 100%;
+    width: 100%;
+     }
+     
+     .clear::after, .clear::before {
+    content: " ";
+    display: table;
+     }
+     
+     .clear::after {
+    clear: both;
+     }
+     
+     /* Main Styles */
+     
+  html {
+    background: #3399cc;
+    border: 30px solid #2b81ac;
+  }
+  
+     body {
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+  
+     }
+     
+     h1 {
+    margin-left: 240px;
+    padding: 40px 0;
+    font-size: 30px;
+    color: #fff;
+     }
+  
+  
+     
+     .city {
+    text-align: center;
+    font-size: 0px;
+    margin-left: 240px;
+    margin-right: 240px;
+    color: #fff;
+     }
+     
+  
+     .list {
+    background: #fff;
+     }
+     
+     
+     
+     .list:hover > li {
+    opacity: .5;
+     }
+     
+     .list li {
+      text-align: center;
+      display: inline-block;
+      padding: 30px 10px;
+      border: 3px solid #fff;
+      font-size: 26px;
+      width: 25%;
+      transition: all .1s ease;
+    }
+  
+  
+     .list li:hover {
+    opacity: 1;
+     }
+     
+     .city-name {
+    text-align: center;
+    margin-bottom: 25px;
+     }
+     
+     .wi {
+    font-size: 35px;
+    margin-left: 5px;
+     }
+     
+     .list li .temperature {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.7);
+     }
+     
+     
+     .list li .wi {
+      display: inline-block;
+      color: rgba(255, 255, 255, 0.7);
+     }
+     
+     
+     .temperature::after {
+        content: '\f03c' }
+     
+     
+     .list li.grid-50 {
+    width: 50%;
+     }
+     
+     .list li.grid-100 {
+    width: 100%;
+     }
+     
+     .Lisbon {
+    background: #3399cc;
+     }
+     
+     .Paris {
+    background: #33cccc;
+     }
+     
+     .Belgrad {
+    background: #996699;
+     }
+     
+     .Moscow {
+    background: #c24747;
+     }
+     
+     .Aviv {
+    background: #e2674a;
+     }
+     
+     .Cair {
+    background: #ffcc66;
+     }
+     
+     .York {
+    background: #99cc99;
+     }
+     
+     .Delhi {
+    background: #669999;
+     }
+     
+     .Francisco {
+    background: #cc6699;
+     }
+     
+     .Tokyo {
+    background: #339966;
+     }
+     
+     .Sydney {
+    background: #666699;
+     }
+     
+     
+     footer {
+    margin-left: 240px;
+    color: #fff;
+    font-size: 20px;
+    padding: 35px 0;
+     }
+
